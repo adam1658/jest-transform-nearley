@@ -4,13 +4,24 @@ A jest transform that enables nearley grammar support
 
 ## Usage
 
-```bash
-npm install jest-transform-nearley
-```
+1. Install the transform:
+    ```bash
+    npm install jest-transform-nearley
+    ```
 
-```js
-const grammar = require('./grammar.ne');
-```
+2. Configure jest:
+    ```json
+    {
+        "transform": {
+            "^.+\\.ne$": "jest-transform-nearley"
+        }
+    }
+    ```
+
+3. Now you can import *.ne files from javascript:
+    ```js
+    const grammar = require('./grammar.ne');
+    ```
 
 ## Development
 
