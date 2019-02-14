@@ -14,7 +14,7 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git://github.com/adamr1658/jest-transform-nearley.git"
+    "url": "git://github.com/adam1658/jest-transform-nearley.git"
   },
   "author": "Adam Rich",
   "license": "MIT",
