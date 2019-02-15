@@ -1,6 +1,6 @@
 {
   "name": "jest-transform-nearley",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "description": "Jest transform to support nearley grammars",
   "main": "./index.js",
   "scripts": {
